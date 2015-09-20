@@ -1,0 +1,33 @@
+
+                          Selenium & Ruby & Cucumber
+
+  What is it?
+  -----------
+  This is a demo of Selenium using Ruby & Cucumber.
+
+
+  The Latest Version
+  ------------------
+  https://github.com/yes4me?tab=repositories
+
+
+  Documentation
+  -------------
+  Explication of the code is: <pending>
+
+
+  Installation
+  ------------
+  install Ruby
+  At the command prompt, run:
+		cmd > gem install cucumber
+		cmd > gem update --system
+		cmd > gem list
+  For Windows, download Ansicon (for color output on command prompt):
+		https://github.com/adoxa/ansicon/downloads
+		cmd > ansicon.exe -i
+
+
+  Contacts
+  --------
+  Author:	Thomas Nguyen - thomas_ejob@hotmail.com
