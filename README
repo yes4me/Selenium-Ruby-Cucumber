@@ -9,7 +9,7 @@
   The Latest Version
   ------------------
   https://github.com/yes4me?tab=repositories
-  Started on: Sep 13, 2015
+  Started on: Sep 26, 2015
 
 
   Documentation
@@ -21,12 +21,24 @@
   ------------
   install Ruby
   At the command prompt, run:
-		cmd > gem install cucumber
 		cmd > gem update --system
+		cmd > gem install cucumber
+		cmd > gem install cucumber --no-rdoc --no-ri
+		cmd > gem install rspec --no-rdoc --no-ri
+		cmd > gem install selenium-webdriver --no-rdoc --no-ri
 		cmd > gem list
   For Windows, download Ansicon (for color output on command prompt):
 		https://github.com/adoxa/ansicon/downloads
 		cmd > ansicon.exe -i
+  Create the project:
+		create a directtory
+		Go to the directory
+		cmd > cucumber --init
+	Run the project (pick either of the following):
+		cmd > cucumber
+		cmd > cucumber -qt -t @<tag name>
+		cmd > cucumber -p <profileName>
+		PS: profiles are like suit, and are saved in "cucumber.yml"
 
 
   Contacts
