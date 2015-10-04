@@ -4,6 +4,7 @@ Given(/^I open browser and navigate to "([^"]*)"$/) do |url|
   @browser.navigate.to url
 end
 
+
 When(/^I navigate to USPS Look Up Zip Code Page$/) do
   @browser.find_element(:css, "a.quick-tools--link.quick-tools--zip").click
 end
