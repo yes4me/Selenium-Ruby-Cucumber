@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../code_teacher/.idea/code_teacher.iml" filepath="$PROJECT_DIR$/../code_teacher/.idea/code_teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cucumber_uspc.iml" filepath="$PROJECT_DIR$/.idea/cucumber_uspc.iml" />
     </modules>
   </component>
