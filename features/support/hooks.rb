@@ -1,4 +1,6 @@
-After do |scenario|
-  puts "after do"
+Before do
+  create_browser
+end
+After do
   @browser.quit
 end
